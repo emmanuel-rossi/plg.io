@@ -5,6 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Héroes de Troya</title>
   <link rel="stylesheet" href="estilos.css" />
+  <style>
+    
+.video-container{
+ width: 100%;
+ max-width: 800px;
+}
+.video-responsive{
+position: relative;
+width: 100%;
+padding-bottom: 56,25%;
+height: 0;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0, 0.2);
+}
+.video-responsive iframe{
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height: 100%;
+}
+  </style>
+  
 </head>
 <body>
   <div class="contenedor">
@@ -107,7 +130,7 @@
       </article>
       <article>
       <h3>SARPEDON</h3>
-      <img src="imagenes/Sarpedon.webp"width="100" height="100" alt="SARPEDON" class="personajes-img"
+      <img src="imagenes/Sarpedon.webp"width="100" height="100" alt="SARPEDON" class="personajes-img">
       <p>hijo de Zeus, muerto por Patroclo. Zeus sintió la tentación de salvarlo, pero Hera le recordó que incluso los héroes eran mortales.</p>
       </article>
     </section>
@@ -122,10 +145,20 @@
         <li>La historia es contada por Homero en la Ilíada y la Odisea.</li>
       </ul>
     </section>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0ifosGyQOEE?si=Zi9T7QFTQ9QJiuva" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+     
+    
+    <section id="video">
+      <h2>Video de la Guerra de Troya</h2>
+      <div class="video-container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9DNzdsR5PEU?si=DYlZZYMXfq6SObdZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+    </section>
     <footer>
       <p>EMMANUEL ROSSI EPS en Informatica articulando con PLG - 2025</p>
     </footer>
+    
   </div>
 </body>
 </html>
